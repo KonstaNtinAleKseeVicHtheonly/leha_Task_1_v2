@@ -1,5 +1,5 @@
-from aiogram.fsm.state import StatesGroup
+from aiogram.fsm.state import StatesGroup, State
 
 
 class AdminStatements(StatesGroup):
-    pass
+    id_user = State()
